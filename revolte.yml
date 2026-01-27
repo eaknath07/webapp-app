@@ -16,4 +16,4 @@ revolte:
             enableCdn: true
             variables:
               BASE_URL: /api/v1
-              VITE_INFO: "#{info}"
+              VITE_INFO: "hello"
