@@ -1,7 +1,7 @@
 revolte:
   version: '1.0'
-  project: test-proj
-  appName: react-service
+  project: eakwebapp
+  appName: ewebapp
   env:
     qa:
       branch: qa
