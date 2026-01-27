@@ -1,7 +1,7 @@
 revolte:
   version: '1.0'
-  project: eakwebapp
-  appName: ewebapp
+  project: webapp-test
+  appName: ewebeapp
   env:
     qa:
       branch: qa
