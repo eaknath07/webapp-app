@@ -4,7 +4,7 @@ revolte:
   appName: web-app
   env:
     staging:
-      branch: main
+      branch: temp
       services:
         rid_1:
           type: WEB_APP
@@ -14,9 +14,9 @@ revolte:
             indexPage: index.html
             errorPage: error.html
             variables:
-              BASE_URL: /api/v1
+              BASE_URL: /api/v1/22
     qa:
-      branch: qa
+      branch: temp
       services:
         rid_1:
           type: WEB_APP
@@ -30,7 +30,7 @@ revolte:
               VITE_INFO: hello
               SAMPLE: sample
     production:
-      branch: main
+      branch: temp
       services:
         rid_1:
           type: WEB_APP
