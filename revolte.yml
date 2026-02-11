@@ -13,7 +13,6 @@ revolte:
           properties:
             indexPage: index.html
             errorPage: error.html
-            enableCdn: false
             variables:
               BASE_URL: /api/v1/22
     qa:
@@ -26,7 +25,6 @@ revolte:
           properties:
             indexPage: index.html
             errorPage: error.html
-            enableCdn: false
             variables:
               BASE_URL: /api/v1
               VITE_INFO: hello
@@ -41,7 +39,6 @@ revolte:
           properties:
             indexPage: index.html
             errorPage: error.html
-            enableCdn: false
             variables:
               BASE_URL: /api/v1
     preview:
@@ -53,6 +50,5 @@ revolte:
           properties:
             indexPage: index.html
             errorPage: error.html
-            enableCdn: false
             variables:
               BASE_URL: /api/v1
