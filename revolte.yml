@@ -1,7 +1,7 @@
 revolte:
   version: '1.0'
-  project: eak-webap
-  appName: web-app
+  project: test1
+  appName: webapp
   env:
     staging:
       branch: temp
@@ -13,6 +13,7 @@ revolte:
           properties:
             indexPage: index.html
             errorPage: error.html
+            enableCdn: false
             variables:
               BASE_URL: /api/v1/22
     qa:
@@ -25,6 +26,7 @@ revolte:
           properties:
             indexPage: index.html
             errorPage: error.html
+            enableCdn: false
             variables:
               BASE_URL: /api/v1
               VITE_INFO: hello
@@ -39,6 +41,7 @@ revolte:
           properties:
             indexPage: index.html
             errorPage: error.html
+            enableCdn: false
             variables:
               BASE_URL: /api/v1
     preview:
@@ -50,5 +53,6 @@ revolte:
           properties:
             indexPage: index.html
             errorPage: error.html
+            enableCdn: false
             variables:
               BASE_URL: /api/v1
